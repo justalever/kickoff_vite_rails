@@ -1,0 +1,41 @@
+.input {
+  @apply appearance-none block w-full text-gray-700 border border-gray-400 rounded px-3 leading-tight text-base bg-white shadow-inner;
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+}
+
+.input:focus,
+.input:hover {
+  @apply shadow outline-none border-gray-500;
+
+  box-shadow: 0 0 0 0.2rem #e5e7eb;
+  background-clip: padding-box;
+}
+
+.label {
+  @apply block text-gray-700 text-sm font-bold mb-2;
+}
+
+.select {
+  @apply appearance-none py-3 px-4 pr-8 block w-full bg-white border border-gray-300 text-gray-700 rounded leading-tight;
+  -webkit-appearance: none;
+}
+
+.select:focus {
+  @apply outline-none border-gray-400;
+
+  box-shadow: 0 0 0 0.2rem #e5e7eb;
+  background-clip: padding-box;
+}
+
+.caret {
+  @apply pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-800;
+}
+
+.input-group {
+  @apply mb-6;
+}
+
+.input-checkbox {
+  @apply flex items-center;
+}
