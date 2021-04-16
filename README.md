@@ -51,13 +51,12 @@ Because Rails 6.1 ships with webpacker by default we need to skip installing it 
 
 ```bash
 git clone git@github.com:justalever/kickoff_vite_rails.git
-cd kickoff_vite_rails
 ```
 
 🏈 Kickoff a new app
 
 ```bash
-rails new sample_app --skip-webpack-install --skip-javascript -d <postgresql, mysql, sqlite3> -m template.rb
+rails new sample_app --skip-webpack-install --skip-javascript -d <postgresql, mysql, sqlite3> -m kickoff_vite_rails/template.rb
 ```
 
 ### Once installed what do I get?
