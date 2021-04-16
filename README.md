@@ -56,7 +56,7 @@ git clone git@github.com:justalever/kickoff_vite_rails.git
 🏈 Kickoff a new app
 
 ```bash
-rails new sample_app --skip-webpack-install --skip-javascript -d <postgresql, mysql, sqlite3> -m kickoff_vite_rails/template.rb
+rails new sample_app --skip-webpack-install --skip-javascript -m kickoff_vite_rails/template.rb
 ```
 
 ### Once installed what do I get?
