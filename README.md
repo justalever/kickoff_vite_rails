@@ -47,14 +47,23 @@ Because Rails 6.1 ships with webpacker by default we need to skip installing it 
 - `vite-plugin-full-reload`
 - `vite-plugin-windicss windicss`
 
+⬇️ Clone the repo
+
 ```bash
-$ rails new sample_app --skip-webpack-install --skip-javascript -d <postgresql, mysql, sqlite3> -m template.rb
+git clone git@github.com:justalever/kickoff_vite_rails.git
+cd kickoff_vite_rails
 ```
 
-or you create an app from github directly
+🏈 Kickoff a new app
 
 ```bash
-$ rails new sample_app --skip-webpack-install --skip-javascript -d postgresql https://raw.githubusercontent.com/justalever/kickoff-vite-rails/master/template.rb
+rails new sample_app --skip-webpack-install --skip-javascript -d <postgresql, mysql, sqlite3> -m template.rb
+```
+
+↗️ or you create an app from github directly
+
+```bash
+$ rails new sample_app --skip-webpack-install --skip-javascript -d postgresql https://raw.githubusercontent.com/justalever/kickoff_vite_rails/master/template.rb
 ```
 
 ### Once installed what do I get?
