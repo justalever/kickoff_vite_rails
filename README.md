@@ -78,7 +78,7 @@ rails new sample_app --skip-webpack-install --skip-javascript -m kickoff_vite_ra
 
 ### Watch an overview
 
- 📹 _Coming soon_
+ 📹 [https://web-crunch.com/posts/vite-ruby-on-rails-application-template](https://web-crunch.com/posts/vite-ruby-on-rails-application-template)
 
 ### Extending Vite
 
