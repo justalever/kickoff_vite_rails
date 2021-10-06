@@ -1,5 +1,5 @@
 
-import { Application } from "stimulus"
+import { Application } from "@hotwired/stimulus"
 import { registerControllers } from 'stimulus-vite-helpers'
 
 // Start the Stimulus application.

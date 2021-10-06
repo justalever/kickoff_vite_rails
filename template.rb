@@ -81,7 +81,7 @@ def add_vite
 end
 
 def add_javascript
-  run "yarn add trix @rails/actiontext @rails/ujs @rails/activestorage stimulus stimulus-vite-helpers vite-plugin-stimulus-hmr vite-plugin-full-reload typescript vite-plugin-windicss windicss"
+  run "yarn add trix @rails/actiontext @rails/ujs @rails/activestorage @hotwired/stimulus stimulus-vite-helpers vite-plugin-stimulus-hmr vite-plugin-full-reload typescript vite-plugin-windicss windicss"
 end
 
 def add_sidekiq
