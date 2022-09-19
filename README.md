@@ -1,6 +1,6 @@
 # Rails Kickoff Vite – WindiCSS
 
-A rapid Rails 6.1+ application template. This particular template utilizes [WindiCSS](https://windicss.org/), a utility-first CSS framework for rapid UI development and [Vite](https://vitejs.dev/guide/), a build tool that aims to provide a faster and leaner development experience for modern web projects.
+A rapid Rails 7.0+ application template. This particular template utilizes [WindiCSS](https://windicss.org/), a utility-first CSS framework for rapid UI development and [Vite](https://vitejs.dev/guide/), a build tool that aims to provide a faster and leaner development experience for modern web projects.
 
 Inspired heavily by [Jumpstart](https://github.com/excid3/jumpstart) from [Chris Oliver](https://twitter.com/excid3/) and my previous [Kickoff Tailwind](https://github.com/justalever/kickoff_tailwind) Rails application that utilized Webpack/Tailwind CSS.
 
